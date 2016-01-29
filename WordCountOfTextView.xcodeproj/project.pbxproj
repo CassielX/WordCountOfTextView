@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47997EC1C3189D30023C8EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C47997EB1C3189D30023C8EC /* main.m */; };
+		C47997EF1C3189D30023C8EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47997EE1C3189D30023C8EC /* AppDelegate.m */; };
+		C47997F21C3189D30023C8EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47997F11C3189D30023C8EC /* ViewController.m */; };
+		C47997F51C3189D30023C8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47997F31C3189D30023C8EC /* Main.storyboard */; };
+		C47997F71C3189D30023C8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47997F61C3189D30023C8EC /* Assets.xcassets */; };
+		C47997FA1C3189D30023C8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47997F81C3189D30023C8EC /* LaunchScreen.storyboard */; };
+		C47998051C3189D30023C8EC /* WordCountOfTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47998041C3189D30023C8EC /* WordCountOfTextViewTests.m */; };
+		C47998101C3189D30023C8EC /* WordCountOfTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C479980F1C3189D30023C8EC /* WordCountOfTextViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47998011C3189D30023C8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47997DF1C3189D30023C8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47997E61C3189D30023C8EC;
+			remoteInfo = WordCountOfTextView;
+		};
+		C479980C1C3189D30023C8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47997DF1C3189D30023C8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47997E61C3189D30023C8EC;
+			remoteInfo = WordCountOfTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C47997E71C3189D30023C8EC /* WordCountOfTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordCountOfTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47997EB1C3189D30023C8EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C47997ED1C3189D30023C8EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C47997EE1C3189D30023C8EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C47997F01C3189D30023C8EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C47997F11C3189D30023C8EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C47997F41C3189D30023C8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47997F61C3189D30023C8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47997F91C3189D30023C8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47997FB1C3189D30023C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47998001C3189D30023C8EC /* WordCountOfTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCountOfTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47998041C3189D30023C8EC /* WordCountOfTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordCountOfTextViewTests.m; sourceTree = "<group>"; };
+		C47998061C3189D30023C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C479980B1C3189D30023C8EC /* WordCountOfTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCountOfTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C479980F1C3189D30023C8EC /* WordCountOfTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordCountOfTextViewUITests.m; sourceTree = "<group>"; };
+		C47998111C3189D30023C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47997E41C3189D30023C8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47997FD1C3189D30023C8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47998081C3189D30023C8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47997DE1C3189D30023C8EC = {
+			isa = PBXGroup;
+			children = (
+				C47997E91C3189D30023C8EC /* WordCountOfTextView */,
+				C47998031C3189D30023C8EC /* WordCountOfTextViewTests */,
+				C479980E1C3189D30023C8EC /* WordCountOfTextViewUITests */,
+				C47997E81C3189D30023C8EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47997E81C3189D30023C8EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47997E71C3189D30023C8EC /* WordCountOfTextView.app */,
+				C47998001C3189D30023C8EC /* WordCountOfTextViewTests.xctest */,
+				C479980B1C3189D30023C8EC /* WordCountOfTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47997E91C3189D30023C8EC /* WordCountOfTextView */ = {
+			isa = PBXGroup;
+			children = (
+				C47997ED1C3189D30023C8EC /* AppDelegate.h */,
+				C47997EE1C3189D30023C8EC /* AppDelegate.m */,
+				C47997F01C3189D30023C8EC /* ViewController.h */,
+				C47997F11C3189D30023C8EC /* ViewController.m */,
+				C47997F31C3189D30023C8EC /* Main.storyboard */,
+				C47997F61C3189D30023C8EC /* Assets.xcassets */,
+				C47997F81C3189D30023C8EC /* LaunchScreen.storyboard */,
+				C47997FB1C3189D30023C8EC /* Info.plist */,
+				C47997EA1C3189D30023C8EC /* Supporting Files */,
+			);
+			path = WordCountOfTextView;
+			sourceTree = "<group>";
+		};
+		C47997EA1C3189D30023C8EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C47997EB1C3189D30023C8EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47998031C3189D30023C8EC /* WordCountOfTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C47998041C3189D30023C8EC /* WordCountOfTextViewTests.m */,
+				C47998061C3189D30023C8EC /* Info.plist */,
+			);
+			path = WordCountOfTextViewTests;
+			sourceTree = "<group>";
+		};
+		C479980E1C3189D30023C8EC /* WordCountOfTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C479980F1C3189D30023C8EC /* WordCountOfTextViewUITests.m */,
+				C47998111C3189D30023C8EC /* Info.plist */,
+			);
+			path = WordCountOfTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47997E61C3189D30023C8EC /* WordCountOfTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47998141C3189D30023C8EC /* Build configuration list for PBXNativeTarget "WordCountOfTextView" */;
+			buildPhases = (
+				C47997E31C3189D30023C8EC /* Sources */,
+				C47997E41C3189D30023C8EC /* Frameworks */,
+				C47997E51C3189D30023C8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordCountOfTextView;
+			productName = WordCountOfTextView;
+			productReference = C47997E71C3189D30023C8EC /* WordCountOfTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47997FF1C3189D30023C8EC /* WordCountOfTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47998171C3189D30023C8EC /* Build configuration list for PBXNativeTarget "WordCountOfTextViewTests" */;
+			buildPhases = (
+				C47997FC1C3189D30023C8EC /* Sources */,
+				C47997FD1C3189D30023C8EC /* Frameworks */,
+				C47997FE1C3189D30023C8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47998021C3189D30023C8EC /* PBXTargetDependency */,
+			);
+			name = WordCountOfTextViewTests;
+			productName = WordCountOfTextViewTests;
+			productReference = C47998001C3189D30023C8EC /* WordCountOfTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C479980A1C3189D30023C8EC /* WordCountOfTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C479981A1C3189D30023C8EC /* Build configuration list for PBXNativeTarget "WordCountOfTextViewUITests" */;
+			buildPhases = (
+				C47998071C3189D30023C8EC /* Sources */,
+				C47998081C3189D30023C8EC /* Frameworks */,
+				C47998091C3189D30023C8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C479980D1C3189D30023C8EC /* PBXTargetDependency */,
+			);
+			name = WordCountOfTextViewUITests;
+			productName = WordCountOfTextViewUITests;
+			productReference = C479980B1C3189D30023C8EC /* WordCountOfTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47997DF1C3189D30023C8EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "夏鸿杰";
+				TargetAttributes = {
+					C47997E61C3189D30023C8EC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C47997FF1C3189D30023C8EC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C47997E61C3189D30023C8EC;
+					};
+					C479980A1C3189D30023C8EC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C47997E61C3189D30023C8EC;
+					};
+				};
+			};
+			buildConfigurationList = C47997E21C3189D30023C8EC /* Build configuration list for PBXProject "WordCountOfTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47997DE1C3189D30023C8EC;
+			productRefGroup = C47997E81C3189D30023C8EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47997E61C3189D30023C8EC /* WordCountOfTextView */,
+				C47997FF1C3189D30023C8EC /* WordCountOfTextViewTests */,
+				C479980A1C3189D30023C8EC /* WordCountOfTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47997E51C3189D30023C8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47997FA1C3189D30023C8EC /* LaunchScreen.storyboard in Resources */,
+				C47997F71C3189D30023C8EC /* Assets.xcassets in Resources */,
+				C47997F51C3189D30023C8EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47997FE1C3189D30023C8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47998091C3189D30023C8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47997E31C3189D30023C8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47997F21C3189D30023C8EC /* ViewController.m in Sources */,
+				C47997EF1C3189D30023C8EC /* AppDelegate.m in Sources */,
+				C47997EC1C3189D30023C8EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47997FC1C3189D30023C8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47998051C3189D30023C8EC /* WordCountOfTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47998071C3189D30023C8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47998101C3189D30023C8EC /* WordCountOfTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47998021C3189D30023C8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47997E61C3189D30023C8EC /* WordCountOfTextView */;
+			targetProxy = C47998011C3189D30023C8EC /* PBXContainerItemProxy */;
+		};
+		C479980D1C3189D30023C8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47997E61C3189D30023C8EC /* WordCountOfTextView */;
+			targetProxy = C479980C1C3189D30023C8EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47997F31C3189D30023C8EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47997F41C3189D30023C8EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47997F81C3189D30023C8EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47997F91C3189D30023C8EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47998121C3189D30023C8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C47998131C3189D30023C8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47998151C3189D30023C8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordCountOfTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiedaibao.com.WordCountOfTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C47998161C3189D30023C8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordCountOfTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiedaibao.com.WordCountOfTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C47998181C3189D30023C8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordCountOfTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiedaibao.com.WordCountOfTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordCountOfTextView.app/WordCountOfTextView";
+			};
+			name = Debug;
+		};
+		C47998191C3189D30023C8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordCountOfTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiedaibao.com.WordCountOfTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordCountOfTextView.app/WordCountOfTextView";
+			};
+			name = Release;
+		};
+		C479981B1C3189D30023C8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordCountOfTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiedaibao.com.WordCountOfTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordCountOfTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C479981C1C3189D30023C8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordCountOfTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiedaibao.com.WordCountOfTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordCountOfTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47997E21C3189D30023C8EC /* Build configuration list for PBXProject "WordCountOfTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47998121C3189D30023C8EC /* Debug */,
+				C47998131C3189D30023C8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47998141C3189D30023C8EC /* Build configuration list for PBXNativeTarget "WordCountOfTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47998151C3189D30023C8EC /* Debug */,
+				C47998161C3189D30023C8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C47998171C3189D30023C8EC /* Build configuration list for PBXNativeTarget "WordCountOfTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47998181C3189D30023C8EC /* Debug */,
+				C47998191C3189D30023C8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C479981A1C3189D30023C8EC /* Build configuration list for PBXNativeTarget "WordCountOfTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C479981B1C3189D30023C8EC /* Debug */,
+				C479981C1C3189D30023C8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47997DF1C3189D30023C8EC /* Project object */;
+}
